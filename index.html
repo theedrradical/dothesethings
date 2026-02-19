@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do list App</title>
+    
+    <!-- PWA Meta Tags -->
+    <meta name="description" content="A beautiful and functional to-do list app">
+    <meta name="theme-color" content="#ff9dcb">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="ToDo">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- App Icons -->
+    <link rel="apple-touch-icon" href="icons/icon-152.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+        <h1>Do These Things</h1>
+        <div class="stat-container">
+            <div class="details">
+                <h3>don't get distracted!</h3>
+                <div id="progressbar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="stats-number">
+                <p id="numbers">0 / 0</p>
+            </div>
+        </div>
+        <form class="input-area">
+            <input type="text" id="task-input" placeholder="Add a new task...">
+            <button type="submit" id="add-task-btn"><i class="fa-solid fa-plus"></i></button>
+        </form>
+        <div class="todos-container">
+            <ul id="task-list">
+            </ul>
+            <img class="empty-image" src="images/empty8.png" alt="empty">
+        </div>
+</div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
