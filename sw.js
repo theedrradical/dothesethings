@@ -1,14 +1,14 @@
 const CACHE_NAME = 'todo-app-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/script.js',
-  '/manifest.json',
-  '/images/empty.png',
-  '/images/personal-artwork-3 copy.jpg',
-  '/icons/icon-192x192.png',
-  '/icons/icon-512x512.png',
+  './',
+  './index.html',
+  './style.css',
+  './script.js',
+  './manifest.json',
+  './images/empty8.png',
+  './images/personal-artwork-3 copy.jpg',
+  './icons/icon-192x192.png',
+  './icons/icon-512x512.png',
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css'
 ];
 
